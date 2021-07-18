@@ -13,5 +13,6 @@ teste1 -> nome do projeto
 Passo 3 - Neste repositório salvei o index.js contendo alguns exemplos de códigos.
 
 Passo 4 - comando "npm run dev" para rodar a aplicação no caminho
+http://localhost:3000/
 
-Contem um formulário com input e botão 
+Contem um formulário com input e botão para submeter, que vai criar um item LI na lista UL.
