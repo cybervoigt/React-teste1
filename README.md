@@ -11,9 +11,13 @@ npx create-next-app --example with-styled-components teste1
 
 onde "teste1" é o nome do projeto.
 
-Passo 3 - Neste repositório salvei o index.js contendo alguns exemplos de códigos.
+Passo 3 - acessar a pasta do projeto pelo shell/cmd, e rodar comando "npm run dev" para iniciar a execução da aplicação
 
-Passo 4 - comando "npm run dev" para rodar a aplicação no caminho
+Passo 4 - testar a execução da aplicação abrindo no navegador a seguinte URL
+
 http://localhost:3000/
+
+
+Neste repositório salvei alguns exemplos de códigos no arquivo index.js, que deve substituir o index.js original na pasta "pages" do projeto.
 
 Contem um formulário com input e botão para submeter, que vai criar um item LI na lista UL.
