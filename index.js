@@ -7,6 +7,9 @@ const Title = styled.h1`
   color: ${({ theme }) => theme.colors.primary};
 `
 
+function ListaTeste2(props){
+  return <p>teste...{props.message}</p>
+}
 
 export default function Home() {
   const objeto1 = {
@@ -57,6 +60,8 @@ export default function Home() {
         )
       })}
     </ul>
+    <ListaTeste2 message="footer 1"/>
+    <ListaTeste2 message="footer 2"/>
   </>
   )
 }
