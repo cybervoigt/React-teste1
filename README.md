@@ -4,9 +4,10 @@ Test project 1, little intro about React...
 BR
 Pequeno projeto (index.js) contendo alguns exemplos de código React/Javascript, baseados na apresentação da imersão da Alura (alurakut), em julho de 2021.
 
-Passo 1 - instalar Node.js
+Passo 1 - instalar Node.js (https://nodejs.org/en/)
 
-Passo 2 - criar o projeto com o comando
+Passo 2 - criar um novo projeto com o comando
+
 npx create-next-app --example with-styled-components teste1
 
 onde "teste1" é o nome do projeto.
