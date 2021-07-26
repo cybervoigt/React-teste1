@@ -1,5 +1,6 @@
 import React from 'react';
 
+
 function TableRow(props){
     return (
     <tr key={props.myKey}>
@@ -12,14 +13,15 @@ function TableRow(props){
 
 export default function TesteTabelaPrice(){
 
-    //
+    // here is the "magic"...  :-)
+    // the React returns the array (list of payments)
+    // and the "set method" to define a new list.
     const tmplist = [];
     const [list1,setList1] = React.useState(tmplist);
-  
 
     return (
     <>
-    <h2>Price table simulator...</h2>
+    <h2>Price amortization table simulator...</h2>
 
     <form onSubmit={function handleSubmitForm(e){
       e.preventDefault();
@@ -36,13 +38,12 @@ export default function TesteTabelaPrice(){
             throw new Error('type the principal value...');
           }
           if(term == ""){
-            throw new Error('type the term...');
+            throw new Error('type the term in months...');
           }
           if(rate == ""){
-            throw new Error('type the rate(%)...');
+            throw new Error('type the rate(%) by month...');
           }
 
-          //alert('hello world..');
           // convert...
           const vPrincipal = parseFloat(principal);
           const nTerm = parseInt(term);
@@ -64,6 +65,8 @@ export default function TesteTabelaPrice(){
 
             // :-/
             vLeftOver = Math.round(vLeftOver * 100)/100;
+
+            // how to apply a mask to values? with 2 digits after decimal separator...
 
             const tmpObject = {
                 id: i,
@@ -91,7 +94,7 @@ export default function TesteTabelaPrice(){
     <table border="1">
     <tbody>
         <tr>
-        <td>#</td><td>xx</td><td>xxxx</td>
+        <td>#</td><td>Value per month</td><td>Left Value</td>
         </tr>
         {list1.map((item) => {
         return  <TableRow key={item.id} myKey={item.id} value={item.vPay} leftover={item.vLeftOver}/>
