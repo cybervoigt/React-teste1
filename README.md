@@ -1,7 +1,7 @@
 # React-teste1
 Test project 1, little intro about React... 
 
-BR
+[BR]
 
 Pequeno projeto (index.js) contendo alguns exemplos de código React/Javascript, baseados na apresentação da imersão da Alura (alurakut), em julho de 2021.
 
@@ -28,9 +28,9 @@ Contem um formulário com input e botão para submeter, que vai criar um item LI
 Também implementei um exemplo bem simples da tabela PRICE de amortização de juros em empréstimos/investimentos.
 
 
-EN
+[EN]
 
-Little project (index.js) with some example REACT/Javascript source code, based on ...
+Little project (index.js) with some example REACT/Javascript source code, based on the Alura immersion (alurakut) did on july,2021.
 
 Step 1 - install Node.js
 
