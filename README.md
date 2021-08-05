@@ -28,9 +28,10 @@ Contem um formulário com input e botão para submeter, que vai criar um item LI
 Também implementei um exemplo bem simples da tabela PRICE de amortização de juros em empréstimos/investimentos.
 
 
+
 [EN]
 
-Little project (index.js) with some example REACT/Javascript source code, based on the Alura immersion (alurakut) did on july,2021.
+Small project (index.js) with some example REACT/Javascript source code, based on the Alura immersion (alurakut) did on july,2021.
 
 Step 1 - install Node.js
 
